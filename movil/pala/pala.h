@@ -7,7 +7,6 @@
 
 #include "../../global.h"
 
-void palaA(Pala pala);
-void palaB(Pala pala);
+void printPala(Pala pala);
 
 #endif //BATTLECITY_PALA_H

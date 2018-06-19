@@ -11,7 +11,6 @@
 #include "movil/bola/bola.h"
 #include "keys/keys.h"
 
-
 int main() {
     int arrow = 0;
     Bola bola = {.pos = {.x = 30, .y = 8}, .direccion = {.x = 1 , .y = 1} };
@@ -24,8 +23,8 @@ int main() {
     while(teclas(&pala, &pala1, arrow) != KEY_BREAK){
         clear();
         dibujar_Marco();
-        palaA(pala);
-        palaB(pala1);
+        printPala(pala);
+        printPala(pala1);
         movimiento_Bola(&bola,pala,pala1);
         usleep(20000*1.2);
     }
