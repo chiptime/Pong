@@ -7,6 +7,6 @@
 
 #include "../global.h"
 
-void dibujar_Marco();//char matriz[fila][columna]);
+void dibujar_Marco();
 
 #endif //BATTLECITY_MAP_H

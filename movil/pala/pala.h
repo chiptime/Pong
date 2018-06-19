@@ -5,7 +5,6 @@
 #ifndef BATTLECITY_PALA_H
 #define BATTLECITY_PALA_H
 
-
 #include "../../global.h"
 
 void palaA(Pala pala);

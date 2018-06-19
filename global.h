@@ -15,10 +15,7 @@
 #define minc 0
 #define maxf (fila-1)   //fila de matriz
 #define maxc (columna-1)//columna de matriz
-
-
 #define LESSVEL 0.5
-
 
 //////////////////// Movil
 typedef struct{
@@ -35,8 +32,5 @@ typedef struct{
 typedef struct{
     Movil pos;
 }Pala;
-
-
-
 
 #endif //BATTLECITY_GLOBAL_H

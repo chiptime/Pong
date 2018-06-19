@@ -6,7 +6,7 @@
 
 
 //////////////// Dibujar marco
-void dibujar_Marco(){//char matriz[fila][columna]){
+void dibujar_Marco(){
     for(int f=0; f<fila;f++) {
         for(int c=0;c<columna;c++) {
             if(((f) == minf) || ((f) == maxf))

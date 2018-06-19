@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//for getch
-
 #include <unistd.h>
 #include <locale.h>
 ////////////////////local

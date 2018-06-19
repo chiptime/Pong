@@ -4,7 +4,6 @@
 
 #include "pala.h"
 
-
 void palaA(Pala pala) {
     mvprintw((int)pala.pos.y,   (int)pala.pos.x,"█");
     mvprintw((int)pala.pos.y+1, (int)pala.pos.x,"█");
