@@ -5,10 +5,8 @@
 #ifndef BATTLECITY_MAP_H
 #define BATTLECITY_MAP_H
 
-//#include "pong.cpp"
+#include "../global.h"
 
-
-//void dibujar_Marco(char matriz[fila][columna]);
-
+void dibujar_Marco();//char matriz[fila][columna]);
 
 #endif //BATTLECITY_MAP_H
